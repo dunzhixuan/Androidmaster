@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/centertextview" />
+            <option value="$PROJECT_DIR$/constacts" />
+            <option value="$PROJECT_DIR$/constraintlayout" />
+            <option value="$PROJECT_DIR$/customdialog" />
+            <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/glide" />
+            <option value="$PROJECT_DIR$/handler" />
+            <option value="$PROJECT_DIR$/javamaster" />
+            <option value="$PROJECT_DIR$/jetpack" />
+            <option value="$PROJECT_DIR$/leakcanary-master" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/progress" />
+            <option value="$PROJECT_DIR$/proxy" />
+            <option value="$PROJECT_DIR$/reflex" />
+            <option value="$PROJECT_DIR$/toastproblem" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

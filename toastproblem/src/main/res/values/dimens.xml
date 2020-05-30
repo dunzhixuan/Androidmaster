@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="lib_utils_round_rect_toast_padding_top_bottom">10dp</dimen>
+    <dimen name="lib_utils_round_rect_toast_padding_left_right">20dp</dimen>
+</resources>

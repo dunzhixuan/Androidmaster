@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp"
+    android:background="@drawable/lib_ui_components_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#FF333333"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:text="VIPKID用户协议及隐私政策" />
+
+    <LinearLayout
+        android:id="@+id/ll_protocol_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/txv_title"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_above="@+id/ll_protocol_button">
+
+        <TextView
+            android:id="@+id/txv_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textSize="14dp"
+            android:layout_below="@+id/txv_title"
+            tools:text="感谢您下载并使用VIPKID应用程序，我们非常重视您的个人信息和隐私保护。在您使用VIPKID产品或服务前，请您仔细阅读、充分理解协议中的条款内容后再点击同意（尤其是以粗体标识的条款，因为这些条款可能会明确您应履行以的义务或对您的权利有所限制）：" />
+
+        <TextView
+            android:id="@+id/txv_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            tools:text="《VIPKID用户协议》"/>
+
+        <TextView
+            android:id="@+id/txv_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            tools:text="《隐私政策》"/>
+
+        <TextView
+            android:id="@+id/txv_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            tools:text="如果您是未满18周岁的未成年人，请通知您的监护人共同阅读以上协议并特别关注未成年人信息保护部分，并在使用我们的产品、服务或提交个人信息之前，寻求他们的同意和指导。"/>
+
+        <TextView
+            android:id="@+id/txv_content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14dp"
+            tools:text="如您继续使用VIPKID 的产品或服务，请您点击同意后登陆。如您对以上协议内容有任何疑问，您可以随时与客服联系。"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_protocol_content"
+        android:background="#FFD8D8D8" />
+
+    <LinearLayout
+        android:id="@+id/ll_protocol_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txv_negative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#FF333333"
+            android:textSize="16dp"
+            tools:text="不同意" />
+
+        <View
+            android:id="@+id/button_divider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFD8D8D8" />
+
+        <TextView
+            android:id="@+id/txv_positive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#FFFF6422"
+            android:textSize="16dp"
+            tools:text="同意" />
+    </LinearLayout>
+
+</RelativeLayout>

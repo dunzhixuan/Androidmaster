@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_isexist_constacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="判断用户是否存在"/>
+
+    <Button
+        android:id="@+id/btn_save_constact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_isexist_constacts"
+        android:text="写入通讯录"/>
+
+    <Button
+        android:id="@+id/btn_save_constacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_save_constact"
+        android:text="批量写入通讯录"/>
+
+</RelativeLayout>
