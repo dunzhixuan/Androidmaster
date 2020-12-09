@@ -14,19 +14,25 @@
             <option value="$PROJECT_DIR$/centertextview" />
             <option value="$PROJECT_DIR$/constacts" />
             <option value="$PROJECT_DIR$/constraintlayout" />
+            <option value="$PROJECT_DIR$/coordinatorlayout" />
             <option value="$PROJECT_DIR$/customdialog" />
             <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/dormancymaster" />
             <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/filedownloader" />
             <option value="$PROJECT_DIR$/glide" />
             <option value="$PROJECT_DIR$/handler" />
             <option value="$PROJECT_DIR$/javamaster" />
             <option value="$PROJECT_DIR$/jetpack" />
+            <option value="$PROJECT_DIR$/lambda" />
             <option value="$PROJECT_DIR$/leakcanary-master" />
+            <option value="$PROJECT_DIR$/nested" />
             <option value="$PROJECT_DIR$/notification" />
             <option value="$PROJECT_DIR$/okhttp" />
             <option value="$PROJECT_DIR$/progress" />
             <option value="$PROJECT_DIR$/proxy" />
             <option value="$PROJECT_DIR$/reflex" />
+            <option value="$PROJECT_DIR$/textspan" />
             <option value="$PROJECT_DIR$/toastproblem" />
           </set>
         </option>

@@ -1,0 +1,103 @@
+{
+	"code": 0,
+	"msg": "OK",
+	"data": [{
+		"templateStyle": "FIVE_CARDS",
+		"courseEntry": [{
+			"available": true,
+			"jumpLink": "http://stage-mobile.vipkid-qa.com.cn/parents/bookclass/bookclassmain/?_tbc=h",
+			"lowTitle": "Major Course",
+			"remark": null,
+			"tips": "主修课程是VIPKID的主体课程，拥有科学的分级系统，先进的教学理论，完善的教学体系，有趣的教学内容。学员可自主选择老师和上课时间，坚持学习，可有效提升英语能力，做到学以致用。",
+			"title": "主修课",
+			"name": "MAJOR",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/mqDO7n8Ywvyp.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qxL8EngnZOOrp.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/mZNXzjoJN0gRr.png",
+			"minVersion": null,
+			"uniqueKey": "MAJOR_BOOK_COURSE_KEY",
+			"imgColor": "#FF6422"
+		}, {
+			"available": true,
+			"jumpLink": "vkparentfast://class/ai/list?courseIds=597895",
+			"lowTitle": "Ligth Course",
+			"remark": null,
+			"tips": null,
+			"title": "双优AI",
+			"name": "LIGHT_CLASS",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/gJMKBDK9DnQjZ.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qxL8EngnZOOrp.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/mZNXzjoJN0gRr.png",
+			"minVersion": "3.7.0",
+			"uniqueKey": "AI_ELT_BOOK_COURSE_KEY",
+			"imgColor": "#00AFF5"
+		}, {
+			"available": true,
+			"jumpLink": "http://stage-mobile.vipkid-qa.com.cn/parents/bookclass/curriculum/?_tbc=h",
+			"lowTitle": "Specialized Course ",
+			"remark": null,
+			"tips": "专项课是VIPKID主修课的有效补充，包括兴趣类、测评辅导类、单项补强类课程，帮助学员查缺补漏，扩展国际视野。学员可根据开课时间自主约课，选课灵活自由。",
+			"title": "专项课",
+			"name": "MINOR",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qQK7AnxpKpR3.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qxL8EkV3v2jkk.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/gJMXq9nV9gG3Z.png",
+			"minVersion": null,
+			"uniqueKey": "MINOR_BOOK_COURSE_KEY",
+			"imgColor": "#FFBF1A"
+		}, {
+			"available": true,
+			"jumpLink": "http://stage-mobile.vipkid-qa.com.cn/parents/openclass/openclasslist/?_tbc=h",
+			"lowTitle": "Open Class",
+			"remark": null,
+			"tips": null,
+			"title": "公开课",
+			"name": "OPEN",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/R6jn4Xj4PWyzz.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/NkW1r61355lvp.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/gJMXq96V684GZ.png",
+			"minVersion": null,
+			"uniqueKey": "OPEN_BOOK_COURSE_KEY",
+			"imgColor": "#00D1A9"
+		}, {
+			"available": true,
+			"jumpLink": "http://stage-mobile.vipkid-qa.com.cn/parents/bookclass/aiopenclass/?_tbc=h",
+			"lowTitle": "Interactive Class",
+			"remark": null,
+			"tips": null,
+			"title": "互动课堂",
+			"name": "INTERACT",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qxL5PonzG3pkD.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/73VJxB0W9WrAQ.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/qQyvrxJJNMKr.png",
+			"minVersion": null,
+			"uniqueKey": "INTERACT_BOOK_COURSE_KEY",
+			"imgColor": "#7973FF"
+		}],
+		"entryList": [{
+			"bannerImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/gJMkNYRAyyN6r.png",
+			"link": "http://stage-mobile.vipkid-qa.com.cn/examregis/special-course/home/?_tbc=h",
+			"title": "专属外教"
+		}],
+		"tabName": "英语"
+	}, {
+		"templateStyle": "FOUR_CARDS",
+		"courseEntry": [{
+			"available": true,
+			"jumpLink": "http://stage-mobile.vipkid-qa.com.cn/parentsspeedy/math/thinking/?_tbc=h",
+			"lowTitle": "Math Smart",
+			"remark": null,
+			"tips": null,
+			"title": "数学思维",
+			"name": "MATH",
+			"showImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/mZN6LkYAQn4pG.png",
+			"grayImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/BB9EMYL1oW1oX.png",
+			"originImgUrl": "https://img.vipkidstatic.com/prt/image/tools/upload/73VJx0lrrmwyB.png",
+			"minVersion": "3.5.0",
+			"uniqueKey": "MATH_BOOK_COURSE_KEY",
+			"imgColor": "#00AFF5"
+		}],
+		"entryList": null,
+		"tabName": "数学"
+	}]
+}

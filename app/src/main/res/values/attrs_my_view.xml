@@ -5,4 +5,18 @@
         <attr name="exampleColor" format="color" />
         <attr name="exampleDrawable" format="color|reference" />
     </declare-styleable>
+
+    <declare-styleable name="LibUIComponentsPopLayout">
+        <attr name="lib_ui_components_background_color" format="color" />
+        <attr name="lib_ui_components_shadow_color" format="color" />
+        <attr name="lib_ui_components_shadow_size" format="dimension" />
+        <attr name="lib_ui_components_radius" format="dimension" />
+        <attr name="lib_ui_components_direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="lib_ui_components_offset" format="dimension" />
+    </declare-styleable>
 </resources>

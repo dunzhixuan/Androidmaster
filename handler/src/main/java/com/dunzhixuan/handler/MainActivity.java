@@ -10,7 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends Activity {
-	private Handler handler;
+	private Handler handler = new Handler(new Handler.Callback() {
+		@Override
+		public boolean handleMessage(@NonNull Message msg) {
+			return false;
+		}
+	});
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
