@@ -10,29 +10,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends Activity {
-	private Handler handler = new Handler(new Handler.Callback() {
-		@Override
-		public boolean handleMessage(@NonNull Message msg) {
-			return false;
-		}
-	});
+  private static Handler handler =
+      new Handler(
+          new Handler.Callback() {
+            @Override
+            public boolean handleMessage(@NonNull Message msg) {
+              System.out.println();
+              return false;
+            }
+          });
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		handler  = new Handler(){
-			@Override
-			public void handleMessage(@NonNull Message msg) {
-				super.handleMessage(msg);
-				switch (msg.what){
-					case 1:
-
-						break;
-				}
-			}
-		};
 
 		MyThread myThread = new MyThread();
 		myThread.run();
@@ -41,7 +32,7 @@ public class MainActivity extends Activity {
 
 
 
-	class MyThread implements Runnable{
+	private static class MyThread implements Runnable{
 
 		@Override
 		public void run() {
