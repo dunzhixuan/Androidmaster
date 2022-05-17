@@ -2,11 +2,14 @@ package com.dunzhixuan.okhttp;
 
 import android.util.Log;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.IOException;
 
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Headers;
+import okhttp3.Interceptor;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -19,7 +22,14 @@ public class OKHttpHelper {
 
 	public void get(){
 		String url = "http://wwww.baidu.com";
-		OkHttpClient okHttpClient = new OkHttpClient();
+		OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
+		OkHttpClient okHttpClient = builder.addInterceptor(new Interceptor() {
+			@Override
+			public Response intercept(@NotNull Chain chain) throws IOException {
+				return chain.proceed(chain.request());
+			}
+		}).build();
+
 		final Request request = new Request.Builder()
 						.url(url)
 						.get()//默认就是GET请求，可以不写

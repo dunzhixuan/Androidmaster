@@ -36,9 +36,12 @@ public class JavaActivity extends Activity {
 //				builder.appendQueryParameter("key1213", "value");
 //				uri = builder.build();
 
-				String path = "vkparent://app/loginauthorize?client_id=778899&path=damischeme://app/dami";
-				Uri uri = Uri.parse(path);
+//				String path = "vkparent://app/loginauthorize?client_id=778899&path=damischeme://app/dami";
+//				Uri uri = Uri.parse(path);
+				String url = "https://mobile.vipkid.com.cn/home&asd=***";
 
+				Uri uri = Uri.parse(url);
+				Log.d("tbg",url);
 			}
 		});
 	}

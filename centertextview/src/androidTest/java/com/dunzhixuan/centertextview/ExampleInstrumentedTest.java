@@ -1,6 +1,9 @@
 package com.dunzhixuan.centertextview;
 
 import android.content.Context;
+import android.net.Uri;
+import android.util.Log;
+
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -22,5 +25,13 @@ public class ExampleInstrumentedTest {
 		Context appContext = InstrumentationRegistry.getTargetContext();
 
 		assertEquals("com.dunzhixuan.centertextview", appContext.getPackageName());
+	}
+
+	@Test
+	public void useAppContext2() {
+		String url = "https://mobile.vipkid.com.cn/home&asd=***";
+
+		Uri uri = Uri.parse(url);
+		Log.d("tbg",url);
 	}
 }
